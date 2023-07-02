@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+button {
+    cursor: pointer;
+}
+.main {
+    .background {
+        max-width: 100%;
+        background: rgba(230, 243, 255, 0.75);
+        .container {
+            max-width: 1440px;
+            max-height: 1024px;
+            margin: 0 auto 0 auto;
+            position: relative;
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                .left {
+                    padding: 78px 0 67px 0;
+                }
+                .right {
+                    flex: 0 0 845px;
+                    height: 100%;
+                    border-radius: 25px 0px 0px 25px;
+                    background: #fcfeff;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 845px;
+                    padding: 124px 122px 0 123px;
+                    .content {
+                        .title {
+                            margin-bottom: 52px;
+                            h1 {
+                                font: normal 600 26px/39px Poppins;
+                                color: #000;
+                                text-align: center;
+                            }
+                        }
+                        .form {
+                            form {
+                                .form-group {
+                                    width: 100%;
+                                    margin-bottom: 40px;
+                                    &:first-child {
+                                        margin-bottom: 41px;
+                                    }
+                                    label {
+                                        font: normal 500 20px/30px Poppins;
+                                        color: #7c838a;
+                                    }
+                                    input {
+                                        width: 100%;
+                                        border-radius: 20px;
+                                        background: rgba(176, 186, 195, 0.4);
+                                        height: 65px;
+                                        padding: 17px 40px 18px 40px;
+                                        color: rgba(0, 0, 0, 0.5);
+                                        font: normal normal 20px/30px Poppins;
+                                        border: none;
+                                        outline: none;
+                                    }
+                                }
+
+                                .button-create {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    width: 100%;
+                                    margin-bottom: 26px;
+                                    button {
+                                        border-radius: 10px;
+                                        background: #f9ed32;
+                                        color: #000;
+                                        font: normal 500 26px/39px Poppins;
+                                        border: none;
+                                        padding: 10px 55px 11px 70px;
+                                    }
+                                }
+                                .link-login {
+                                    margin-bottom: 41px;
+                                    color: #7c838a;
+                                    font: normal normal 18px/27px Poppins;
+                                    a {
+                                        color: #f9ed32;
+                                        text-decoration: none;
+                                    }
+                                }
+
+                                .or {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    color: #b0bac3;
+                                    font: normal 500 26px/39px Poppins;
+                                    margin-bottom: 15px;
+                                }
+
+                                .link-social {
+                                    padding: 0 27px;
+                                    margin-bottom: 84px;
+                                    .row {
+                                        .social {
+                                            width: 220px;
+                                            height: 55px;
+                                            border-radius: 15px;
+                                            border: 1px solid #7c838a;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            text-decoration: none;
+                                            color: #7c838a;
+                                            font: normal 500 14px/21px Poppins;
+                                            .img {
+                                                margin-right: 9px;
+                                                img {
+                                                }
+                                            }
+                                            span {
+                                            }
+                                            &.google {
+                                                margin-right: 81px;
+                                            }
+                                            &.github {
+                                            }
+                                        }
+                                    }
+                                }
+                                .coppyright {
+                                    color: #7c838a;
+                                    text-align: center;
+                                    font: normal normal 20px/23px Poppins;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
